@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 Totem Donalds
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GuilhermeSalles/Tomas-BigPizza/blob/main/LICENSE) 
 
-## Getting Started
+Um **Totem de Autoatendimento para Restaurantes**, inspirado em grandes redes de fast‑food, desenvolvido com foco em **UI/UX**, **fluxo real de pedidos** e **integração com gateway de pagamento (modo teste)**.
 
-First, run the development server:
+O projeto simula a experiência completa de um cliente realizando pedidos em um totem digital, desde a escolha do restaurante até o pagamento.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Demo online**: [https://totem-donalds-two.vercel.app/](https://totem-donalds-two.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 Visão Geral do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O **Totem Donalds** foi criado para simular um cenário real de autoatendimento em restaurantes.
 
-## Learn More
+Atualmente, o sistema conta com:
 
-To learn more about Next.js, take a look at the following resources:
+* Uma **página inicial** listando os restaurantes disponíveis
+* Um restaurante funcional (McDonald's – simulado)
+* Fluxo completo de pedido
+* Integração com **gateway de pagamento em modo de teste**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⚠️ **Observação**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* O pagamento está configurado **apenas para ambiente de desenvolvimento**
+* Pode ser utilizado qualquer CPF válido
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧠 Objetivos do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Simular um **totem de autoatendimento real**
+* Aplicar boas práticas de **UI/UX**
+* Trabalhar com **estado global de carrinho**
+* Implementar **fluxo de checkout e pagamento**
+* Criar uma base escalável para múltiplos restaurantes
+
+---
+
+## 🧩 Funcionalidades
+
+* 🏪 Página inicial com listagem de restaurantes
+* 🍟 Cardápio interativo por restaurante
+* 🛒 Carrinho de compras dinâmico
+* ➕ Adição e remoção de itens
+* 💳 Checkout com gateway de pagamento (modo teste)
+* 📱 Layout responsivo (desktop e tablet)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **React / Next.js**
+* **TypeScript**
+* **Tailwind CSS**
+* **Componentização moderna**
+* **Gerenciamento de estado**
+* **Integração com gateway de pagamento (test mode)**
+* **Deploy na Vercel**
+
+---
+
+## 🎨 UI / UX
+
+O foco do design foi:
+
+* Interface limpa e intuitiva
+* Fluxo rápido para realização do pedido
+* Botões grandes e acessíveis (pensando em totem físico)
+* Experiência próxima à de redes reais de fast‑food
+
+---
+
+## 🧪 Pagamento (Modo Teste)
+
+* O gateway de pagamento está configurado **exclusivamente para testes**
+* Nenhuma transação real é realizada
+* Ideal para desenvolvimento e validação de fluxo
+
+---
+
+## 🔮 Próximos Passos (Evoluções Futuras)
+
+* 🏪 Cadastro dinâmico de restaurantes
+* 📊 Dashboard administrativo
+* 🔐 Autenticação de usuários
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Guilherme Salles**
+
+* GitHub: [https://github.com/GuilhermeSalles](https://github.com/GuilhermeSalles)
+* LinkedIn: [https://www.linkedin.com/in/guilhermesalles](https://www.linkedin.com/in/guilhermesalles)
+
+---
+
+⭐ Se curtir o projeto, não esqueça de deixar uma estrela no repositório!

@@ -1,5 +1,5 @@
 # 🍔 Totem Donalds
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GuilhermeSalles/Tomas-BigPizza/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GuilhermeSalles/Totem-Donalds/blob/main/LICENSE) 
 
 Um **Totem de Autoatendimento para Restaurantes**, inspirado em grandes redes de fast‑food, desenvolvido com foco em **UI/UX**, **fluxo real de pedidos** e **integração com gateway de pagamento (modo teste)**.
 
